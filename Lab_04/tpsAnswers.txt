@@ -1,0 +1,23 @@
+group members: mario barrera
+TPS 1
+1. I expect the program to print 2
+2. I expect the program to print 65 because it converts to 'A'
+3. Done. my answer was incorrect for part 2, it did not print out 65
+4. Done. I assumed it would print a big number like four_ints[0], however it printed out just 2.
+5. a. 2 arrays were allocated four_ints and four_c
+   b. four_ints[0] and four_c[0] have the same address but every other value in both arrays have a different address
+   c. Done, they are not pointing to the same location
+6. Done, since four_ints is a array of ints the address size increase by 4 for every element in the array
+7. Done
+8. Done, since four_c is an array of chars the address size increases by 1 for every element in the array
+9. Done
+10. C memory increments the size based on the type of variable that the array is being used for.
+
+TPS 2
+1. Line 8 creates a double pointer called arr and allocates memory for n number of integers.
+2. to access the ith value of the array, we set **arr to 0 and then we can access the entire row of *arr
+3. to access arr[i][j] you need to access the column i, once you access column i you can now access any element j in the row
+4. we need the size of the array so we can let the program know when to stop looking for elements
+5. Done
+6. Done
+7. Done

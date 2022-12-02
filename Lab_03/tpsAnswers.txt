@@ -1,0 +1,18 @@
+TPS 1
+1. 3 pools of memory are stack memory, heap memory, and dynammic memory. stack memory stores temporary variables,
+   heap memory stores pointer variables, and dyammic memory stores variables whos address has yet to be defined
+
+2. a.   3 variables
+   b. 2 are pointers, ptr points to num and handle is pointing to ptr
+   c. num is stored on the stack and ptr and handle are stored on the heap
+   d. ptr will point to the heap
+
+3. Done
+4. Done
+
+TPS 2
+1. the program creates 3 variables, iValue, fValue, and Node *next. The main functions allocates memory for
+   the struct node *head and then assigns values for iValue and fValue
+2. Done
+3. structs are stored on the stack, the pointer head points to the heap and then points to the memory that was declared on the stack
+   by the struct

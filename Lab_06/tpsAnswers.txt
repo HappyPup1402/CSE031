@@ -1,0 +1,25 @@
+TPS 1
+1. text segment = 0x00400000 and Data segment = 0x10010000
+2.  They are different in the ways that the differnt commands and addresses are referenced with the Source Code showing the lines of code.
+    the Basic code showing the hex value of the addresses as well as for integer values.
+3. there is a difference of 20 bytes between addresses in the data segment
+4. there are 8 columns for every address
+5. the columns represent the bytes that are in between each row and the addresses in that space
+6. create a variable name then next to it put .word and the value. m: .word 20
+7. m is stored at address 0x00400000
+8. Done
+9. str1 is stored in addresses 0x00400000, 0x00400020, 0x00400040
+10. Characters are stored the same way however they are stored in reverse order
+11. li $vo, 4 allows us to print a string
+12. there is an error when I assemble the code. The label has not been loaded into a register so we cant
+    load its address into another register
+
+TPS 2
+1. It would take up more space
+2. Done
+3. Done
+4. Done
+5. Done
+6. Done
+7. Done
+8. Done

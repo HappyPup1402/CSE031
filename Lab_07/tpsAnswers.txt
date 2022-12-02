@@ -1,0 +1,27 @@
+TPS 1
+1. A function returns a value while a procedure does not. 
+   A method is essentially a function but more exclusive to a class in object oriented programming. 
+2. Done
+3. Done
+4. Line 12, is an instruction to jump to line 20. Line 20 adds the registers $a0 and $a1 and loads the value into $v0.
+5. we cannot use the "j $ra" instruction because the j op code is meant to read a label, not a register. 
+   "jr $ra" is meant to read an address from a register and jump to that address. 
+6. The return address is saved at line 11. It is saved in register $ra. The value is 0.
+   This value makes no sense because it doesn't have a meaningful value. 
+7. The program gives an error.
+8. The line after the original jump was called. 
+9. It  should be correct 
+10. The new return address is: 0x0040001c. The output is 15. 
+11. jal
+12. Done
+
+TPS 2
+1. The output will be 38. 
+2. proc2.s should do the same thing as proc2.c
+3. The command jal allows the MIPS code to jump to the register specified and then save the return address 
+   (the line just after the jal command was called) to the register $ra. Once the jal command was called again 
+   within SUM, the original return address was lost, which means the code wont be able to return to the MAIN. 
+4. We can simply save the original value of $a0 to the stack using the commands: addi $sp, $sp, -4; sw $a0, 0($sp);
+5. The original value of $s0 (x) is replaced by the value m. This is not necessarily a problem unless the 
+   program doesn't properly account for this instruction later, which it appears the code didn't.
+6. Done

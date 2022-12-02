@@ -1,0 +1,28 @@
+TPS 1
+1. Done
+2. Done
+3. Done
+4. li $v0, 5
+   syscall
+   move $t3, $v0
+5. we dont need the declaration for n nor the la and lw commands. 
+6. Done
+
+TPS 2
+1. When 5 is entered, the output is 29.
+2. Done
+3. Done
+4. Register $a0.
+5. I expect it to be returned in $v0. I returned the value into $a0, 
+6. Done
+7. This is enough space reserved for 3 integers. the first thing stored in the stack frame is the return
+   address
+8. Done
+9. Done
+10. We need to save $a0 to save the m value so we can use it again later 
+11. Done
+12. It will overwrite the original $v0 
+13. Done
+14. Done
+15. It is the return address that we first saved when we first called the recursion function. The value
+   will be $a0

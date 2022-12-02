@@ -1,0 +1,9 @@
+1. line 18 is the problem with the segmentaion fault
+2. add & in front of input
+3. sum is not increasing in values
+4. instead of sedning sum we send the &sum and in the function we declare sum as a pointer *sum
+
+
+1. HELLO!hello! was the expected outcome
+2. the expected outcome will be HI!hi!. To fix the bug I added a null character at the end of a string.
+3. The expected outcome is Hello, how are you? I am fine, Thank you!

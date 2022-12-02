@@ -1,0 +1,24 @@
+TPS1
+1. Christian Gallien, Torrance Zhou
+2. https://www.youtube.com/watch?v=-3toI8L3Oug, https://www.youtube.com/watch?v=ABVeAXcRIJg, https://www.youtube.com/watch?v=aTexulFrVhk
+
+TPS2
+1. gcc -g punishment.c -o punish
+2. type gdb in the terminal
+3. type gdb space punish.exe after you enter the word run to run the code in gdb
+4. a breakpoint is a spot in the code where the program will stop and then allow the user to continue
+   to run the code line by line so they may find the mistake.
+5. once gdb hits the breakpoint the user must enter s to continue to the next line of code
+6. you type the command info locals
+7. type in the code continue to continue running the code.
+8. type in q to exist out of gdb
+
+TPS 3
+1. 4 variables but only two are pointers
+2. printing out x, y, and arr[0] are just junk values
+3. assign them values at the beginning
+4. Done
+5. Done
+6. Done
+7. Done
+8. Yes because arr points to the beginning of the array.

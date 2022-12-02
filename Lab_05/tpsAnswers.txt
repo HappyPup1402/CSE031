@@ -1,0 +1,25 @@
+TPS 1
+1. MIPS Assembler and Runtime Simulator
+2. Done
+3. Done
+4.
+ a. open files and select the file
+ b. click on the tools bar
+ c. click play button
+ d. no, you must assemble first
+ e. click on the play button with a one next to it
+ f. you can recompile and hit the tool bar or click on the reset button
+
+TPS 2
+1. .data = subsequent items stored in data segment at next available address
+   .word = Store the listed value(s) as 32 bit words on word boundary
+   .text = Subsequent items (instructions) stored in Text segment at next available address
+2. if $t3 and $t0 are equal they break to finishes address
+3. its jumping to the targets address which is fib
+4. first we compile the code then on the left hand side you can click on the box next to the line you want to 
+   set a breakpoint at
+5. you click on the one step at a time button
+6. the contents of a register are stored in the registers tab. To modify the value of a register manually
+   you need to double click on the value to change it under the values tab.
+7. n is stored at address 0x10010000
+8. line 19 prints out a integer using syscall and line 21 terminates execution using the syscall command
